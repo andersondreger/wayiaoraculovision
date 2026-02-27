@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-color: #E6E6E6; /* Light surround */
+    --card-bg: #151619; /* Dark matte widget */
+    --text-primary: #FFFFFF;
+    --text-secondary: #8E9299;
+    --accent-color: #F27D26;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+  }
+}
+
